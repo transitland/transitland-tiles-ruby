@@ -1,7 +1,7 @@
-require 'tile_utils/graphid'
-require 'tile_utils/shape7'
 require 'tile_utils/tile'
-require 'tile_utils/tileset'
+require 'tile_utils/tile_set'
+require 'tile_utils/graph_id'
+require 'tile_utils/shape7'
 
 require 'find'
 require 'fileutils'

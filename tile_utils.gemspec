@@ -1,4 +1,6 @@
 # -*- encoding: utf-8 -*-
+$:.push File.expand_path('../lib', __FILE__)
+
 Gem::Specification.new do |gem|
   gem.name    = 'tile_utils'
   gem.version = 0.1
@@ -17,6 +19,7 @@ Gem::Specification.new do |gem|
   gem.add_dependency 'google-protobuf'
 
   gem.add_development_dependency 'rspec'
+  gem.add_development_dependency 'pry'
 
   gem.files = `git ls-files`.split("\n")
   gem.test_files = `git ls-files -- {test,spec,features}/*`.split("\n")

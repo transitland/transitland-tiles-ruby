@@ -7,7 +7,7 @@ end
 
 task :console do
   require 'pry'
-  require 'gtfs'
+  require 'tile_utils'
   ARGV.clear
   Pry.start
 end
